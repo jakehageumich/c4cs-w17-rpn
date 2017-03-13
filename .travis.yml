@@ -1,0 +1,6 @@
+{
+	language": "python",
+  	"group": "python3",
+    	"dist": "rpn.py",
+      	"os": "mac"
+}
