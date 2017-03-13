@@ -1,3 +1,4 @@
+import readline
 
 def calculate(arg):
     stack = [];
