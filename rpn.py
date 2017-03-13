@@ -24,11 +24,14 @@ def calculate(arg):
 			print(product)
 		elif str(i) == "/":
 			quotient = 0
-			if stack != []:
+			if len(stack) > 1:
+				quotient = stack.pop() / stack.pop()
+				while stack != []:
+					quotient /= stack.pop()
+			elif len(stack) == 1:
 				quotient = stack.pop()
-			while stack != []:
-				quotient /= stack.pop()
-			result = quotient
+			else:
+				quotient = 0
 			print(quotient)
 		elif str(i) == "q":
 			exit()
