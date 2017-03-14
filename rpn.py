@@ -1,4 +1,5 @@
 import readline
+import subprocess
 
 def calculate(arg):
     stack = [];
@@ -45,6 +46,7 @@ def calculate(arg):
             stack.append(int(i))
 def main():
     while True:
-        calculate(input("rpn calc> "))
+        print(calculate(input("rpn calc> ")))
+    subprocess.call(["coverage report -m"])
 if __name__ == '__main__': # Note: that's "underscore underscore n a m e ..."
     main()

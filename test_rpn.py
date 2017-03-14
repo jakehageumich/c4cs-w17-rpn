@@ -1,5 +1,7 @@
+#!/usr/bin/env python
 import unittest
 import rpn
+import subprocess
 class TestBasics(unittest.TestCase):
 	def test_add(self):
 		result = rpn.calculate("1 1 +")
