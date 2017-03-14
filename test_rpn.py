@@ -17,3 +17,7 @@ class TestBasics(unittest.TestCase):
 		result = rpn.calculate("4 8 /")
 		self.assertEqual(2, result)
 		print("Passed divide: 8 / 4 = " + str(result))
+	def test_power(self):
+		result = rpn.calculate("7 2 ^")
+		self.assertEqual(128, result)
+		print("Passed power: 2 ^ 7 = " + str(result))

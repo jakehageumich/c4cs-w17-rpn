@@ -32,6 +32,13 @@ def calculate(arg):
                     quotient /= stack.pop()
                     result = quotient
                 return quotient
+        elif str(i) == "^":
+            product = 0
+            if len(stack) > 0:
+                product = stack.pop()
+            while len(stack) > 0:
+                product **= stack.pop()
+            return product
         elif str(i) == "q":
             exit()
         else:
