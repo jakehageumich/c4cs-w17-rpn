@@ -13,5 +13,5 @@
 [![bitHound Dev Dependencies](https://www.bithound.io/github/jakehageumich/c4cs-w17-rpn/badges/devDependencies.svg)](https://www.bithound.io/github/jakehageumich/c4cs-w17-rpn/master/dependencies/npm)
 ## I am amazing
 [![bitHound Code](https://www.bithound.io/github/jakehageumich/c4cs-w17-rpn/badges/code.svg)](https://www.bithound.io/github/jakehageumich/c4cs-w17-rpn)
-TODO: Need to make sure this works consistently across platforms
+## TODO: Need to make sure this works consistently across platforms
 # made for c4cs WI 2017 - Test Driven Development module
