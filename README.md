@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/jakehageumich/c4cs-w17-rpn.svg?branch=master)](https://travis-ci.org/jakehageumich/c4cs-w17-rpn)
 ## Why? 
 [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+## Coverage (coveralls)
+[![Coverage Status](https://coveralls.io/repos/github/jakehageumich/c4cs-w17-rpn/badge.svg?branch=master)](https://coveralls.io/github/jakehageumich/c4cs-w17-rpn?branch=master)
 ## Contributing 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 ## bithound
